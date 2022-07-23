@@ -8,6 +8,12 @@ print(db)
 d={"name":"amit","email":"amit@gmail.com",
    "surname":"kumar"}
 
+d={"name":"amit","email":"amit@gmail.com",
+   "surname":"kumar"}
+
+d={"name":"amit","email":"amit@gmail.com",
+   "surname":"kumar"}
+
 db1=client['mongotest']
 coll=db1['tes1']
 coll.insert_one(d)
